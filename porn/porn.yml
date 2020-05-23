@@ -1,0 +1,82 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: silent
+
+Proxy:
+  - name: "Singapore"
+    type: ss
+    server: sg.gzhpxb.com
+    port: 49101
+    cipher: aes-256-gcm
+    password: "gogogogo"
+
+Proxy Group:
+  - name: Proxy
+    type: select
+    proxies:
+      - Singapore
+Rule:
+  - DOMAIN-SUFFIX,xvideos.com,Proxy
+  - DOMAIN-SUFFIX,pornhub.com,Proxy
+  - DOMAIN-SUFFIX,phncdn.com,Proxy  
+  - DOMAIN-SUFFIX,pornhubpremium.com,Proxy
+  - DOMAIN-SUFFIX,phprcdn.com,Proxy 
+  - DOMAIN-SUFFIX,xnxx.com,Proxy
+  - DOMAIN-SUFFIX,xhamster.com,Proxy
+  - DOMAIN-SUFFIX,beeg.com,Proxy
+  - DOMAIN-SUFFIX,pornhd.com,Proxy
+  - DOMAIN-SUFFIX,hqporner.com,Proxy
+  - DOMAIN-SUFFIX,eporner.com,Proxy
+  - DOMAIN-SUFFIX,sxyprn.com,Proxy
+  - DOMAIN-SUFFIX,jav101.com,Proxy
+  - DOMAIN-SUFFIX,javhd.com,Proxy
+  - DOMAIN-SUFFIX,anyporn.com,Proxy
+  - DOMAIN-SUFFIX,redtube.com,Proxy
+  - DOMAIN-SUFFIX,pornmd.com,Proxy
+  - DOMAIN-SUFFIX,tube8.com,Proxy
+  - DOMAIN-SUFFIX,youporn.com,Proxy
+  - DOMAIN-SUFFIX,xtube.com,Proxy
+  - DOMAIN-SUFFIX,thumbzilla.com,Proxy
+  - DOMAIN-SUFFIX,brazzersnetwork.com,Proxy
+  - DOMAIN-SUFFIX,japaninporn.com,Proxy
+  - DOMAIN-SUFFIX,javhub.com,Proxy
+  - DOMAIN-SUFFIX,porn.biz,Proxy
+  - DOMAIN-SUFFIX,fuck-videos.xxx,Proxy
+  - DOMAIN-SUFFIX,javfinder.la,Proxy
+  - DOMAIN-SUFFIX,avgle.com,Proxy
+  - DOMAIN-SUFFIX,vjav.com,Proxy
+  - DOMAIN-SUFFIX,hpjav.tv,Proxy
+  - DOMAIN-SUFFIX,javbangers.com,Proxy
+  - DOMAIN-SUFFIX,javdoe.tv,Proxy
+  - DOMAIN-SUFFIX,javqd.me,Proxy
+  - DOMAIN-SUFFIX,kissjav.com,Proxy
+  - DOMAIN-SUFFIX,javmost.com,Proxy
+  - DOMAIN-SUFFIX,popjav.tv,Proxy
+  - DOMAIN-SUFFIX,brazzersnetwork.com,Proxy
+  - DOMAIN-SUFFIX,porn.com,Proxy
+  - DOMAIN-SUFFIX,porn2.com,Proxy
+  - DOMAIN-SUFFIX,porn5.com,Proxy
+  - DOMAIN-SUFFIX,pornbase.org,Proxy
+  - DOMAIN-SUFFIX,pornerbros.com,Proxy
+  - DOMAIN-SUFFIX,pornhost.com,Proxy
+  - DOMAIN-SUFFIX,pornhubdeutsch.net,Proxy
+  - DOMAIN-SUFFIX,pornmm.net,Proxy
+  - DOMAIN-SUFFIX,pornoxo.com,Proxy
+  - DOMAIN-SUFFIX,pornrapidshare.com,Proxy
+  - DOMAIN-SUFFIX,pornsharing.com,Proxy
+  - DOMAIN-SUFFIX,pornsocket.com,Proxy
+  - DOMAIN-SUFFIX,pornstarclub.com,Proxy
+  - DOMAIN-SUFFIX,porntube.com,Proxy
+  - DOMAIN-SUFFIX,porntubenews.com,Proxy
+  - DOMAIN-SUFFIX,porntvblog.com,Proxy
+  - DOMAIN-SUFFIX,pornvisit.com,Proxy
+  - DOMAIN-SUFFIX,e-hentai.org,Proxy
+  - DOMAIN-SUFFIX,gelbooru.com,Proxy
+  - DOMAIN-SUFFIX,yande.re,Proxy
+  - DOMAIN-SUFFIX,sankakucomplex.com,Proxy
+  - DOMAIN-SUFFIX,nekopoi.care,Proxy
+  - DOMAIN-SUFFIX,nhentai.net,Proxy
+  - DOMAIN-SUFFIX,exhentai.org,Proxy
+  - MATCH,DIRECT
