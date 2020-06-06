@@ -79,4 +79,5 @@ Rule:
   - DOMAIN-SUFFIX,nekopoi.care,Proxy
   - DOMAIN-SUFFIX,nhentai.net,Proxy
   - DOMAIN-SUFFIX,exhentai.org,Proxy
+  - DOMAIN-SUFFIX,nhent.ai,Proxy
   - MATCH,DIRECT
