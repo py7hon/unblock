@@ -1,6 +1,20 @@
 {
     "releases": [ 
         {
+            "name": "Unqualified Heroes",
+            "desc": "",
+            "episode": 1,
+            "thumb": "https://img1.ak.crunchyroll.com/i/spire1-tmb/74426352eabf8c9e1718ec6fbfd9f0621601619848_fwide.jpg",
+            "url": "/episode.php?id=797842"
+        }, 
+        {
+            "name": "Wiene Dragon's Daughter",
+            "desc": "",
+            "episode": 1,
+            "thumb": "https://img1.ak.crunchyroll.com/i/spire4-tmb/f49b2958bd9854d77ecb87ccff3b3f9a1601638123_fwide.jpg",
+            "url": "/episode.php?id=797857"
+        },
+        {
             "name": "Rocky Puzzle",
             "desc": "",
             "episode": 1,
