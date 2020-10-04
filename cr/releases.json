@@ -1,6 +1,27 @@
 {
     "releases": [ 
         {
+            "name": "If a lion could speak, we couldn't understand",
+            "desc": "Bruno Bangnyfe from the Top of Horns wants to eliminate Balgo for being a dragonclad so he can collect the bounty that’s about to be on his head. Ninny’s old groupmate, Macy, appears before her again and is in possession of a dragon.",
+            "episode": 3,
+            "thumb": "https://img1.ak.crunchyroll.com/i/spire2-tmb/820b30d4faf8da789d33d9be2b3822d71601577064_fwide.jpg",
+            "url": "/episode.php?id=797793"
+        },
+        {
+            "name": "Ghillie Suit / She Makes Me Special",
+            "desc": "Ninny and Noel try to fight the Märchen that appeared before it destroys all of London.",
+            "episode": 2,
+            "thumb": "https://img1.ak.crunchyroll.com/i/spire4-tmb/85a2ba129ed0562fa6529ec92ca721d61601577033_fwide.jpg",
+            "url": "/episode.php?id=797792"
+        },
+        {
+            "name": "Witches Blow a New Pipe",
+            "desc": "Ninny Spangcole and Noel Niihashi are two Pipers at Wing Bind who secretly help keep the peace in Front London while keeping dragons in check in Reverse London.",
+            "episode": 1,
+            "thumb": "https://img1.ak.crunchyroll.com/i/spire1-tmb/d995c50d40bc27c937162fb87cf0b42c1601576995_fwide.jpg",
+            "url": "/episode.php?id=797791"
+        },
+        {
             "name": "DAI, THE TINY HERO",
             "desc": "Young Dai lives on Dermline Island, where he dreams of being a Hero. One day, a Hero and his companions come to the island. Dai is excited at first, but their true intent is to steal his best friend, Gomechan, the mythical Golden Metal Slime.",
             "episode": 1,
