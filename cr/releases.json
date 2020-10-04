@@ -1,6 +1,13 @@
 {
     "releases": [ 
         {
+            "name": "DAI, THE TINY HERO",
+            "desc": "Young Dai lives on Dermline Island, where he dreams of being a Hero. One day, a Hero and his companions come to the island. Dai is excited at first, but their true intent is to steal his best friend, Gomechan, the mythical Golden Metal Slime.",
+            "episode": 1,
+            "thumb": "https://img1.ak.crunchyroll.com/i/spire2-tmb/29385b2794741d5202111ee1cc0084f81601688924_fwide.jpg",
+            "url": "/episode.php?id=797903"
+        },
+        {
             "name": "Opening of the Raillord Summit",
             "desc": "",
             "episode": 1,
