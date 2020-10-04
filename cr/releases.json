@@ -1,6 +1,13 @@
 {
     "releases": [ 
         {
+            "name": "Rocky Puzzle",
+            "desc": "",
+            "episode": 1,
+            "thumb": "https://img1.ak.crunchyroll.com/i/spire1-tmb/e4c31fa6bc06ff9f7964c016669803571601721638_fwide.jpg",
+            "url": "/episode.php?id=797916"
+        },
+        {
             "name": "“INUYASHA: SINCE THEN”",
             "desc": "",
             "episode": 1,
