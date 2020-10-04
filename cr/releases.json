@@ -1,6 +1,13 @@
 {
     "releases": [ 
         {
+            "name": "Opening of the Raillord Summit",
+            "desc": "",
+            "episode": 1,
+            "thumb": "https://img1.ak.crunchyroll.com/i/spire1-tmb/6ca1ac651ceea54173e298ffdee971e51601652831_fwide.jpg",
+            "url": "/episode.php?id=797895"
+        }, 
+        {
             "name": "Unqualified Heroes",
             "desc": "",
             "episode": 1,
